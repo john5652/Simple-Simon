@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+<script type="text/javascript">
+
+
+function getRandom Square() {
+	var squares = $('.squares');
+	var rand = Math.floor(Math.random() * 4);
+	var buttonToAnimate = square[rand].getAttribute('id');
+	console.log(buttonToAnimate);
+}
+
+
+
+
+function animateSquare(id) {
+$('#' + id).addClass('active');
+setTimeout(function(){
+	$('#' + id).removeClass('active');
+}, 1000)
+}
+
+function playSimonSequence () {
+	for (var i=0; i < playSimonSequence.length; i++) {
+		$('#' + id).addClass('active');
+setTimeout(function(){
+	$('#' + id).removeClass('active');
+}, 1000)
+}
+	}
+}
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+    .container {
+        position: relative;
+        
+        margin-left: auto;
+        margin-right: auto;
+        height: 540px;
+        width: 560px;
+        text-align: left;
+        background-color: lightblue;
+        border-top-left-radius: 50%;
+        border-top-right-radius:50%;
+        border-bottom-right-radius:50%;
+        border-bottom-left-radius:50%;
+
+    }
+    .circle {
+        height: 220px;
+        width:220px;
+        float: left;
+        margin: 25px;
+
+    }
+    .purple {
+        background-color: lightblue;
+        border-top-left-radius:290%
+    }
+    .blue {
+        background-color: lightblue;
+        border-bottom-left-radius:190%;
+    }
+    .green {
+        background-color: lightblue;
+        border-top-right-radius:190%
+    }
+    .yellow {
+        background-color: lightblue;
+        border-bottom-right-radius:190%
+    }
+
+    body {
+        text-align: center;
+    }
+
+    .fade {
+    background-color: white;   
+    }
+        
+        
+        
